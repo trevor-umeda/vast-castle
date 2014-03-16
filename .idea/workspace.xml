@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
     <file path="$PROJECT_DIR$/target/work/resources/web.xml" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1394954911907" ignored="false" />
-    <file path="/ImageController.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1394954844740" ignored="false" />
+    <file path="/ImageController.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1395010500094" ignored="false" />
     <file path="/TagController.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1394954355238" ignored="false" />
     <file path="/UrlMappings.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1394954145813" ignored="false" />
     <file path="/Image.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1394954939383" ignored="false" />
@@ -81,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageController.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ImageController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/imageCollect/ImageController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="43" selection-start="294" selection-end="294" vertical-scroll-proportion="-10.434783">
+            <state line="19" column="23" selection-start="330" selection-end="330" vertical-scroll-proportion="0.60126585">
               <folding />
             </state>
           </provider>
@@ -99,13 +99,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tag.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Tag.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/imageCollect/Tag.groovy">
           <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="12" selection-start="247" selection-end="247" vertical-scroll-proportion="0.60402685">
+            <state line="12" column="71" selection-start="180" selection-end="180" vertical-scroll-proportion="-3.6">
               <folding />
             </state>
           </provider>
@@ -145,9 +145,9 @@
         <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/imageCollect/TagController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/com/imageCollect/ImageController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/imageCollect/Image.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/imageCollect/Tag.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/imageCollect/ImageController.groovy" />
       </list>
     </option>
   </component>
@@ -539,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/imageCollect/ImageController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="43" selection-start="294" selection-end="294" vertical-scroll-proportion="-10.434783">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="8" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
@@ -568,7 +561,14 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="12" selection-start="247" selection-end="247" vertical-scroll-proportion="0.60402685">
+        <state line="12" column="71" selection-start="180" selection-end="180" vertical-scroll-proportion="-3.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/imageCollect/ImageController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="23" selection-start="330" selection-end="330" vertical-scroll-proportion="0.60126585">
           <folding />
         </state>
       </provider>

@@ -18,7 +18,14 @@ class ImageController {
     }
 
     def createImage() {
-    	def image = new Image(imageUrl:request.JSON?.image)
+        def image
+        if(params.image){
+            image = new Image(imageUrl:params.image)
+        }
+        else{
+            image = new Image(imageUrl:request.JSON?.image)
+        }
+
     	image.save(flush:true, failOnError: true)
 
     	render true
