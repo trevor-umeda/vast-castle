@@ -8,7 +8,7 @@ class ImageController {
     	def images
 
     	if(params.tags){
-    		def tag = Tag.find(params.tags)
+    		def tag = Tag.findByName(params.tags)
     		images = tag.images
     	}
     	else{
