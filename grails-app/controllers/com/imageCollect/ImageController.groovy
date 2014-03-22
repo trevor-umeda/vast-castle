@@ -47,4 +47,8 @@ class ImageController {
 
     }
 
+    def health(){
+        render "enabled"
+    }
+
 }
