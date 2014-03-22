@@ -35,11 +35,16 @@ class ImageController {
 
     def getImage(){
         def tag = Tag.findByName(params.tag)
-        def images = tag.images
+        if(tag){
+            def images = tag.images
+            def random = random.nextInt(images.size())
+            def image = images[random]
+            render image.imageUrl
+         }
+        else{
+            render "No Image available"
+        }
 
-        def random = random.nextInt(images.size())
-        def image = images[random]
-        render image.imageUrl
     }
 
 }
