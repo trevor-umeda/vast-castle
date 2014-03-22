@@ -13,6 +13,10 @@ class UrlMappings {
             action = [ GET: "getImages", POST:"createImage" ]
         }
 
+        "/image"(controller:"image") {
+            action = [ GET: "getImage"]
+        }
+
         "/tags"(controller: "tag") {
             action = [ POST:"tagImage" ]
         }

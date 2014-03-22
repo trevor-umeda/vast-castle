@@ -8,6 +8,7 @@ class Image {
     static hasMany = [tags:Tag]
 
     static constraints = {
+
     }
 
     def json() {

@@ -4,6 +4,8 @@ import grails.converters.*
 
 class ImageController {
 
+    Random random = new Random()
+
     def getImages() {
     	def images
 
@@ -31,5 +33,13 @@ class ImageController {
     	render true
     }
 
+    def getImage(){
+        def tag = Tag.findByName(params.tag)
+        def images = tag.images
+
+        def random = random.nextInt(images.size())
+        def image = images[random]
+        render image.imageUrl
+    }
 
 }
