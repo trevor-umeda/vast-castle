@@ -24,5 +24,9 @@ class UrlMappings {
         "/tags"(controller: "tag") {
             action = [ POST:"tagImage" ]
         }
+
+        "/sanitize"(controller: "tag") {
+            action = [ POST: "sanitize"]
+        }
 	}
 }

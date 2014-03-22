@@ -5,17 +5,29 @@ class TagController {
     def tagImage() {
         def tag
         def image
+        def tagName
         if (params.tag){
-            tag = Tag.findOrCreateByName(params.tag)
+            tagName = params.tag.replaceAll(" ","_")
+            tag = Tag.findOrCreateByName(tagName)
             image = Image.findById(params.id)
         }
         else{
-            tag = Tag.findOrCreateByName(request.JSON?.tag)
+            tagName = params.tag.replaceAll(" ","")
+            tag = Tag.findOrCreateByName(tagName)
             image = Image.findById(request.JSON?.id)
         }
         image.addToTags(tag)
         image.save()
 
+        render true
+    }
+
+    def sanitize(){
+        def tags = Tag.all
+        tags.each{
+            it.name = it.name.replaceAll(" ","_")
+            it.save(flush:true)
+        }
         render true
     }
 }
