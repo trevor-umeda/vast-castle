@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
     <file path="$PROJECT_DIR$/target/work/resources/web.xml" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1394954911907" ignored="false" />
-    <file path="/ImageController.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1395512983771" ignored="false" />
+    <file path="/ImageController.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1395609967462" ignored="false" />
     <file path="/TagController.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1395528601905" ignored="false" />
     <file path="/UrlMappings.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1395528666683" ignored="false" />
     <file path="/Image.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1394954939383" ignored="false" />
@@ -85,7 +85,7 @@
       <file leaf-file-name="ImageController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/imageCollect/ImageController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="23" selection-start="1005" selection-end="1005" vertical-scroll-proportion="-25.304348">
+            <state line="31" column="43" selection-start="593" selection-end="593" vertical-scroll-proportion="-18.782608">
               <folding />
             </state>
           </provider>
@@ -94,7 +94,7 @@
       <file leaf-file-name="TagController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/imageCollect/TagController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="47" selection-start="678" selection-end="678" vertical-scroll-proportion="0.5532787">
+            <state line="27" column="43" selection-start="673" selection-end="673" vertical-scroll-proportion="0.5532787">
               <folding />
             </state>
           </provider>
@@ -140,8 +140,8 @@
         <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/imageCollect/Tag.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/imageCollect/Image.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/com/imageCollect/ImageController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/imageCollect/ImageController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/imageCollect/TagController.groovy" />
       </list>
     </option>
@@ -584,13 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/imageCollect/ImageController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="23" selection-start="1005" selection-end="1005" vertical-scroll-proportion="-25.304348">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="28" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
@@ -608,9 +601,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/imageCollect/ImageController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="43" selection-start="593" selection-end="593" vertical-scroll-proportion="-18.782608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/imageCollect/TagController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="47" selection-start="678" selection-end="678" vertical-scroll-proportion="0.5532787">
+        <state line="27" column="43" selection-start="673" selection-end="673" vertical-scroll-proportion="0.5532787">
           <folding />
         </state>
       </provider>

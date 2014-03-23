@@ -7,7 +7,7 @@ class TagController {
         def image
         def tagName
         if (params.tag){
-            tagName = params.tag.replaceAll(" ","_")
+            tagName = params.tag.replaceAll(" ","")
             tag = Tag.findOrCreateByName(tagName)
             image = Image.findById(params.id)
         }
@@ -25,7 +25,7 @@ class TagController {
     def sanitize(){
         def tags = Tag.all
         tags.each{
-            it.name = it.name.replaceAll(" ","_")
+            it.name = it.name.replaceAll("_","")
             it.save(flush:true)
         }
         render true
