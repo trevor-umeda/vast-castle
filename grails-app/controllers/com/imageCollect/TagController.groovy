@@ -1,5 +1,7 @@
 package com.imageCollect
 
+import grails.converters.JSON
+
 class TagController {
 
     def tagImage() {
@@ -21,7 +23,11 @@ class TagController {
 
         render true
     }
+    def getTags(){
+        def tags = Tag.all
+        render tags.collect{it.json()} as JSON
 
+    }
     def sanitize(){
         def tags = Tag.all
         tags.each{

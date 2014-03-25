@@ -22,7 +22,7 @@ class UrlMappings {
         }
 
         "/tags"(controller: "tag") {
-            action = [ POST:"tagImage" ]
+            action = [ GET:"getTags", POST:"tagImage" ]
         }
 
         "/sanitize"(controller: "tag") {
