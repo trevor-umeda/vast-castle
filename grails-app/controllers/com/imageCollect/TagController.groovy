@@ -25,7 +25,12 @@ class TagController {
     }
     def getTags(){
         def tags = Tag.all
-        render tags.collect{it.json()} as JSON
+
+        def tagNames =[]
+        tags.each{
+            tagNames += it.name
+        }
+        render tagNames as JSON
 
     }
     def sanitize(){

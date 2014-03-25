@@ -7,7 +7,7 @@
     <ignored path="$USER_HOME$/.grails/" />
     <file path="$PROJECT_DIR$/target/work/resources/web.xml" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1394954911907" ignored="false" />
     <file path="/ImageController.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1395609967462" ignored="false" />
-    <file path="/TagController.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1395709789007" ignored="false" />
+    <file path="/TagController.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1395717493630" ignored="false" />
     <file path="/UrlMappings.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1395709806036" ignored="false" />
     <file path="/Image.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1394954939383" ignored="false" />
     <file path="/Tag.groovy" changelist="f7f7c4aa-8f99-4189-b5bd-583435a30934" time="1394954662718" ignored="false" />
@@ -94,7 +94,7 @@
       <file leaf-file-name="TagController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/imageCollect/TagController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="23" selection-start="636" selection-end="636" vertical-scroll-proportion="0.5327869">
+            <state line="32" column="23" selection-start="750" selection-end="750" vertical-scroll-proportion="0.6557377">
               <folding />
             </state>
           </provider>
@@ -147,8 +147,8 @@
         <option value="$PROJECT_DIR$/grails-app/domain/com/imageCollect/Tag.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/imageCollect/Image.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/imageCollect/ImageController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/com/imageCollect/TagController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/imageCollect/TagController.groovy" />
       </list>
     </option>
   </component>
@@ -643,7 +643,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/imageCollect/TagController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="636" selection-end="636" vertical-scroll-proportion="0.5327869">
+        <state line="32" column="23" selection-start="750" selection-end="750" vertical-scroll-proportion="0.6557377">
           <folding />
         </state>
       </provider>
