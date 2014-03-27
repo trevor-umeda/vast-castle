@@ -3,6 +3,7 @@ package com.imageCollect
 import grails.converters.JSON
 
 class TagController {
+    static scaffold = true
 
     def tagImage() {
         def tag
