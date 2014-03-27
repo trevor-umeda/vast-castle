@@ -10,7 +10,7 @@ class TagController {
         def image
         def tagName
         if (params.tag){
-            tagName = params.tag.replaceAll(" ","")
+            tagName = params.tag
             tag = Tag.findOrCreateByName(tagName)
             image = Image.findById(params.id)
         }
