@@ -3,7 +3,7 @@ package com.imageCollect
 import grails.converters.*
 
 class ImageController {
-
+    static scaffold = true
     Random random = new Random()
 
     def getImages() {
