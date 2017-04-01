@@ -30,7 +30,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="controller"><g:link controller="imageAdmin">ImageAdminController</g:link></li>
+            <li class="controller"><g:link controller="tagAdmin">TagAdminController</g:link></li>
+            <li class="controller"><g:link controller="tag">View All Tags</g:link></li>
+          </ul>
+      </div><!-- /.container-fluid -->
+    </nav>
 
   </body>
 </html>
