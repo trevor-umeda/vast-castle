@@ -6,8 +6,6 @@ class UrlMappings {
                 // apply constraints here
             }
         }
-
-				"/tag/tagImage"(controller: "tag",action: "tagImage")
         "/"(view:"/main")
 
         "500"(view:'/error')

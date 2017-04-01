@@ -42,7 +42,7 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-    <g:form name="tagImageForm" url="[controller:'tag', action:'tagImage']">
+    <g:form name="tagImageForm" url="[controller:'tag', action:'save']">
         <label>Tag </label>
         <g:textField name="tag"/><br/>
         <label>Copy Paste in Image Url</label>
