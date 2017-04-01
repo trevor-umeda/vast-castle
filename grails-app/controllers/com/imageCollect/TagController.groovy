@@ -25,6 +25,7 @@ def save() {
     image.addToTags(tag)
     image.save()
 
+    flash.message = "Successfully saved img: ${image.imageUrl} under tag: ${tag}"
     redirect(uri: "/")
 }
     def tagImage() {

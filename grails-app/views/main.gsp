@@ -41,15 +41,24 @@
           </ul>
       </div><!-- /.container-fluid -->
     </nav>
-
-    <g:form name="tagImageForm" url="[controller:'tag', action:'save']">
-        <label>Tag </label>
-        <g:textField name="tag"/><br/>
-        <label>Copy Paste in Image Url</label>
-        <g:textField name="imageUrl"/><br/>
-        <g:actionSubmit value="Save"/>
-
-    </g:form>
+    <div class="container" role="main">
+      <div class="panel panel-default">
+        <g:if test="${flash.message}">
+            <div class="alert alert-success" role="alert">${flash.message}</div>
+        </g:if>
+        <g:form name="tagImageForm" url="[controller:'tag', action:'save']">
+            <div class="form-group">
+              <label for="tag">Tag</label>
+              <g:textField class="form-control"  name="tag"/>
+            </div>
+            <div class="form-group">
+              <label for="imageUrl">Image Url</label>
+              <g:textField class="form-control" name="imageUrl"/>
+            </div>
+            <g:actionSubmit value="Save" class="btn btn-default"/>
+        </g:form>
+      </div>
+    </div>
 
   </body>
 </html>
