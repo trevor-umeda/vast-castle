@@ -42,21 +42,25 @@
       </div><!-- /.container-fluid -->
     </nav>
     <div class="container" role="main">
+    <div class="alert alert-warning" role="alert">Remember to type <code>hayate reload tags</code> in chat to have your new tag appear</div>
       <div class="panel panel-default">
         <g:if test="${flash.message}">
             <div class="alert alert-success" role="alert">${flash.message}</div>
         </g:if>
-        <g:form name="tagImageForm" url="[controller:'tag', action:'save']">
-            <div class="form-group">
-              <label for="tag">Tag</label>
-              <g:textField class="form-control"  name="tag"/>
-            </div>
-            <div class="form-group">
-              <label for="imageUrl">Image Url</label>
-              <g:textField class="form-control" name="imageUrl"/>
-            </div>
-            <g:actionSubmit value="Save" class="btn btn-default"/>
-        </g:form>
+        <div class="panel-heading"><h4>Save a tag/image to Hayate!</h4></div>
+          <div class="panel-body">
+            <g:form name="tagImageForm" url="[controller:'tag', action:'save']">
+                <div class="form-group">
+                  <label for="tag">Tag</label>
+                  <g:textField class="form-control"  name="tag"/>
+                </div>
+                <div class="form-group">
+                  <label for="imageUrl">Image Url</label>
+                  <g:textField class="form-control" name="imageUrl"/>
+                </div>
+                <g:actionSubmit value="Save" class="btn btn-default"/>
+            </g:form>
+          </div>
       </div>
     </div>
 
