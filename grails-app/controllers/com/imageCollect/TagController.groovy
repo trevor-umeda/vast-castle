@@ -12,7 +12,11 @@ class TagController {
         if (params.tag){
             tagName = params.tag
             tag = Tag.findOrCreateByName(tagName)
-            image = Image.findById(params.id)
+            if(params.imageUrl) {
+              image = Image.findOrCreateByImageUrl(params.imageUrl)
+            } else {
+              image = Image.findById(params.id)
+            }
         }
         else{
             tagName = params.tag.replaceAll(" ","")
