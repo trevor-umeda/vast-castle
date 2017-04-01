@@ -24,7 +24,7 @@ class TagController {
         image.addToTags(tag)
         image.save()
 
-        render true
+        redirect(uri: "/")
     }
     def getTags(){
         def tags = Tag.all
