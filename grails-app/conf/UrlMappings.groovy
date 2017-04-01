@@ -25,7 +25,7 @@ class UrlMappings {
             action = [ GET:"getTags", POST:"tagImage" ]
         }
 
-        "/tagImage/tagImage"(controller: "tagImage") {
+        "/tagImage"(controller: "tag") {
             action = [ POST:"tagImage" ]
         }
 
