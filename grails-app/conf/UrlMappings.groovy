@@ -7,7 +7,7 @@ class UrlMappings {
             }
         }
         "/"(view:"/main")
-
+				"/tag/search"(controller: "tag", action:"search")
         "500"(view:'/error')
         "/images"(controller: "image") {
             action = [ GET: "getImages", POST:"createImage"]

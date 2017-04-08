@@ -4,6 +4,8 @@ import grails.converters.JSON
 
 class TagController {
 
+static allowedMethods = [list:["GET","POST"], save: "POST", update: "POST", delete: "POST", search:"POST"]
+
 def save() {
     def tag
     def image
@@ -28,6 +30,14 @@ def save() {
     flash.message = "Successfully saved img: ${image.imageUrl} under tag: ${tag}"
     redirect(uri: "/")
 }
+    def search() {
+      def tagName = params.tag
+      def tag = Tag.findByName(tagName)
+    
+      if(tag) {
+        redirect(uri:"/tagAdmin/show/${tag.id}")
+      }
+    }
     def tagImage() {
         def tag
         def image

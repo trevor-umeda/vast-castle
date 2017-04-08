@@ -39,7 +39,14 @@
             <li class="controller"><g:link controller="tagAdmin">TagAdminController</g:link></li>
             <li class="controller"><g:link controller="tag">View All Tags</g:link></li>
           </ul>
-      </div><!-- /.container-fluid -->
+          <form action="/imageCollect/tag/search" class="navbar-form navbar-left"  method="POST" name="myForm" id="myForm">
+             <div class="form-group">
+               <input class="form-control" name="tag" placeholder="Search Tags"/>
+             </div>
+             <g:actionSubmit value="Search" class="btn btn-default"/>
+           </form>
+        </div><!-- /.container-fluid -->
+
     </nav>
     <div class="container" role="main">
     <div class="alert alert-warning" role="alert">Remember to type <code>hayate reload tags</code> in chat to have your new tag appear</div>
@@ -59,7 +66,7 @@
                   <g:textField class="form-control" name="imageUrl"/>
                 </div>
                 <g:actionSubmit value="Save" class="btn btn-default"/>
-            </g:form>
+              </g:form>
           </div>
       </div>
     </div>
