@@ -43,7 +43,7 @@
              <div class="form-group">
                <input class="form-control" name="tag" placeholder="Search Tags"/>
              </div>
-             <g:actionSubmit value="Search" class="btn btn-default"/>
+             <button class="btn btn-default">Search</button>
            </form>
         </div><!-- /.container-fluid -->
 
