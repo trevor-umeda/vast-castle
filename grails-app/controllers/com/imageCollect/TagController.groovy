@@ -38,6 +38,8 @@ def save() {
       if(tag) {
         redirect(uri:"/tagAdmin/show/${tag.id}")
       }
+      println("Could not find tag")
+      render (view:'tag/search.gsp')
     }
     def tagImage() {
         def tag
