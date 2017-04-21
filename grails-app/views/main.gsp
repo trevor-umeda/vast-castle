@@ -39,12 +39,12 @@
             <li class="controller"><g:link controller="tagAdmin">TagAdminController</g:link></li>
             <li class="controller"><g:link controller="tag">View All Tags</g:link></li>
           </ul>
-          <form action="/imageCollect/tag/search" class="navbar-form navbar-left"  method="POST" name="myForm" id="myForm">
+          <g:form url="[controller:'tag', action:'search']" class="navbar-form navbar-left"  method="POST" name="myForm" id="myForm">
              <div class="form-group">
                <input class="form-control" name="tag" placeholder="Search Tags"/>
              </div>
              <button class="btn btn-default">Search</button>
-           </form>
+           </g:form>
         </div><!-- /.container-fluid -->
 
     </nav>
